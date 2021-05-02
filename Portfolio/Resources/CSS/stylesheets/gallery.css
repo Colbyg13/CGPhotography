@@ -36,6 +36,13 @@ header {
 .section-landscape {
     margin-top: 50px;
 }
+
+.landscape-heading {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .landscape-showcase {
     list-style: none;
     width: 100%;
@@ -78,6 +85,12 @@ header {
 
   .section-portrait {
     margin-top: 50px;
+}
+
+.portrait-heading {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .portrait-showcase {
     list-style: none;
