@@ -40,7 +40,7 @@ header {
 .landscape-heading {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .landscape-showcase {
@@ -85,23 +85,35 @@ header {
 
   .section-portrait {
     margin-top: 50px;
+    
 }
+
 
 .portrait-heading {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
 }
 .portrait-showcase {
     list-style: none;
     width: 100%;
     
+    
+}
+
+.section-portrait li::after {
+  display: block;
+  height: 2px;
+  content: " ";
+
 }
 
 .portrait-showcase li {
     width: 25%;
     display: block;
     float: left;
+    background-color: #f4f4f4;
 }
 
 .portrait-photo {

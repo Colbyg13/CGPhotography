@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-image: none;
   height: 10vh;
@@ -29,10 +34,12 @@ header {
 /* --------------------------------- */
 /* Section: About me */
 /* --------------------------------- */
+
 .about-me {
+  min-height: 80vh;
   word-spacing: 1px;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 0;
 }
 .about-me h2 {
   margin-top: 5px;
@@ -42,18 +49,16 @@ header {
   font-weight: 200;
 }
 
-.about-me ion-icon {
-  font-size: 30px;
-}
-
 .about-me p {
+  font-size: 80%;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 155%;
   margin-bottom: 10px;
+  margin-right: 40px;
 }
 
 .about-me img {
-  height: 80vh;
+  height: 60vh;
   width: auto;
 }
 
@@ -62,4 +67,16 @@ header {
   display: block;
   margin: auto;
   margin-bottom: 20px;
+}
+
+#contact-link {
+  text-decoration: none;
+  color: #70a1ff;
+}
+
+footer {
+  background-color: rgb(36, 36, 36);
+  padding: 20px;
+  font-size: 80%;
+  margin: auto;
 }

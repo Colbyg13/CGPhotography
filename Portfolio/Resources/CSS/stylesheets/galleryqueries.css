@@ -1,0 +1,113 @@
+/* Big tablet to 1200px widths smaller than the 1140px row*/
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+  .main-nav {
+    padding: 0 5%;
+    margin-left: 25px;
+  }
+
+  .landscape-showcase li,
+  .portrait-showcase li {
+    width: 50%;
+  }
+
+  .section-portrait,
+  .section-landscape {
+    margin: 5px 0;
+  }
+
+  .portrait-heading,
+  .landscape-heading {
+    margin: 20px 0;
+  }
+}
+
+/* Ipad in portrait mode from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+  }
+
+  .row {
+    margin-top: 20px;
+    padding: 0 2%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 1% 0;
+  }
+
+  .logo {
+    height: 60px;
+  }
+  .main-nav {
+    padding: 0 5%;
+  }
+
+  .main-nav li {
+    margin-left: 20px;
+    font-size: 110%;
+    margin-bottom: 
+  }
+
+  .social-nav {
+    margin-top: 10px;
+  }
+
+  .landscape-showcase li,
+  .portrait-showcase li {
+    width: 50%;
+  }
+}
+
+/* Small phones to small tablets from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  header {
+    height: 10vh;
+  }
+
+  
+
+  .main-nav,
+  .logo,
+  footer {
+    display: none;
+  }
+
+  .landscape-showcase li,
+  .portrait-showcase li {
+    width: 50%;
+  }
+
+  .portrait-heading,
+  .landscape-heading {
+    font-size: 100%;
+  }
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .landscape-showcase li,
+  .portrait-showcase li {
+    width: 100%;
+  }
+
+  .portrait-heading,
+  .landscape-heading {
+    margin: 20px 0;
+    font-size: 85%;
+  }
+
+  .row {
+    margin-top: 0;
+    padding: 0 5%;
+  }
+}

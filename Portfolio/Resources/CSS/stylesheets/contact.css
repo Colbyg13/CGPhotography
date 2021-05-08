@@ -1,0 +1,105 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/Resources/CSS/IMAGES/Plants/green-plants.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    width: 1140px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  .contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select, 
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+  nav {
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  nav:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+.text-btn:link,
+.text-btn:visited {
+  font-size: 90%;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 200px;
+  position: absolute;
+  width: 150px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s
+  }
+
+.email-btn:link,
+.email-btn:visited {
+  font-size: 90%;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 200px;
+  position: absolute;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s
+  }
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #70a2ff96;
+    border: 1px solid #0044c3;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.text-btn:hover,
+.text-btn:active {
+  background-color: #0044c388;
+}
+
+.email-btn:hover,
+.email-btn:active {
+  background-color: #0044c388;
+}
