@@ -16,7 +16,10 @@
   .about-me img {
     height: 50vh;
     width: auto;
-    padding-left: 20px;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .about-me p {
@@ -53,8 +56,12 @@
   }
 
   .about-me img {
-    height: 70vh;
+    height: 75vh;
     width: auto;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .nav-links {
@@ -172,7 +179,11 @@ html {
 /* Small phones from 0 to 480px */
 @media only screen and (max-width: 480px) {
   .about-me img {
-    height: 40vh;
+    padding: 0;
+    display: block;
+    height: 50vh;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
