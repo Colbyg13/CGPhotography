@@ -3,10 +3,6 @@
   .row {
     padding: 0 2%;
   }
-  .main-nav {
-    padding: 0 5%;
-    margin-left: 25px;
-  }
 
   .landscape-showcase li,
   .portrait-showcase li {
@@ -22,18 +18,20 @@
   .landscape-heading {
     margin: 20px 0;
   }
+
+  .logo {
+    height: 25px;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
 }
 
 /* Ipad in portrait mode from 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
   body {
     font-size: 18px;
-  }
-
-  header {
-    background-size: cover;
-    background-position: center;
-    height: 10vh;
   }
 
   .row {
@@ -45,42 +43,29 @@
     margin: 0 0 1% 0;
   }
 
+  .nav-links {
+    width: 50%;
+  }
+  .nav-links a {
+    font-size: 80%;
+  }
   .logo {
-    height: 60px;
-  }
-  .main-nav {
-    padding: 0 5%;
-  }
-
-  .main-nav li {
-    margin-left: 20px;
-    font-size: 110%;
-    margin-bottom: 
-  }
-
-  .social-nav {
-    margin-top: 10px;
+    height: 25px;
   }
 
   .landscape-showcase li,
   .portrait-showcase li {
     width: 50%;
   }
+
+  h2 {
+    font-size: 120%;
+  }
 }
 
 /* Small phones to small tablets from 481px to 767px */
 @media only screen and (max-width: 767px) {
-  header {
-    height: 10vh;
-  }
 
-  
-
-  .main-nav,
-  .logo,
-  footer {
-    display: none;
-  }
 
   .landscape-showcase li,
   .portrait-showcase li {
@@ -91,6 +76,67 @@
   .landscape-heading {
     font-size: 100%;
   }
+
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 80vh;
+    top: 8vh;
+    background-color: rgba(22, 22, 22, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav-links li {
+    opacity: 0;
+}
+
+.nav-links a:link,
+.nav-links a:visited {
+  font-size: 90%;
+  color: #fff;
+  font-size: 90%;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+
+.burger{
+    display: block;
+  
+}
+
+.nav-active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
 }
 
 /* Small phones from 0 to 480px */

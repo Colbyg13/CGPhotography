@@ -5,12 +5,16 @@
 /* --------------------------------- */
 body {
   height: 100%;
+  position: relative;
 }
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 html {
   background-color: #fff;
@@ -26,7 +30,7 @@ html {
 /* --------------------------------- */
 
 .row {
-  max-width: 1140px;
+  max-width: 1140x;
   margin: 0 auto;
 }
 
@@ -57,45 +61,129 @@ header {
     url(/Resources/CSS/IMAGES/Wildlife/buffalo-bw.jpg);
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  height: 100vh;
 }
 
 .logo {
-  height: 75px;
+  position: relative;
+  height: 30px;
   width: auto;
   float: left;
-  margin-top: 20px;
+  margin-top: 0;
+  vertical-align: bottom;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+
+}
+
+.navlogo {
+  color: rgb(235, 233, 233);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around; 
+  width: 35%;
+}
+
+.nav-links a:link,
+.nav-links a:visited {
+  color: #fff;
+  font-size: 90%;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+  color:#70a1ff;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+/*
+nav li a:link,
+nav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+
+nav li a:hover,
+nav li a:active {
+  /*
+    border-bottom: 2px solid #1e90ff;
+
+  color: #70a1ff;
+}
+*/
+
+
+
+
 /* Main Nav */
+
+/*
 .main-nav {
-  float: right;
-  list-style: none;
   margin-top: 40px;
+  float: right;
 }
 
 .main-nav li {
   display: inline-block;
-  margin-left: 35px;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-left: 10px;
 }
 
 .main-nav li a:link,
-.main-nav li a:visited {
-  padding: 6px 0;
+.main-nav li a:visited,
+.mainMenu li a:link,
+.mainMenu li a:visited {
   color: #fff;
   text-decoration: none;
-  font-size: 90%;
-  border-bottom: 2px solid transparent;
   transition: color 0.4s;
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
+.main-nav li a:active,
+.mainMenu li a:hover,
+.mainMenu li a:active {
   /*
     border-bottom: 2px solid #1e90ff;
-*/
+
   color: #70a1ff;
 }
+
+*/
+
+
 
 /* Sticky Nav 
 .sticky {
@@ -112,7 +200,6 @@ header {
   color: #555;
 
 }
- 
 */
 
 
@@ -154,14 +241,18 @@ header {
   font-weight: 200;
 }
 
+
 .landscape img {
   height: 66vh;
   width: auto;
 }
 
+
 .clearfix {
   zoom: 1;
 }
+
+
 .clearfix:after {
   content: ".";
   clear: both;
@@ -170,9 +261,29 @@ header {
   visibility: hidden;
 }
 
+
+.footer-icon {
+  font-size: 120%;
+  color: #fff;
+    /* to align icons */
+  vertical-align: bottom;
+
+}
+
+
+#instagram {
+  transition: color 0.2s;
+}
+
+
+#instagram:hover {
+  color: #70a1ff;
+}
+
 /* --------------------------------- */
-/* FOOTER */
+/* FOOTER NOT IN USE*/
 /* --------------------------------- */
+/*
 footer {
   background-color: rgb(27, 27, 27);
   height: 10vh;
@@ -199,25 +310,13 @@ footer {
   transition: color 0.2s;
 }
 
-.footer-icon {
-  display: inline-block;
-  width: 40px;
-  text-align: center;
-  font-size: 150%;
-  color: #888;
-
-  /* to align icons */
-  line-height: 100%;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
 #facebook,
 #twitter,
 #linkedin,
 #instagram {
   transition: color 0.2s;
 }
+
 #facebook:hover {
   color: #3b5998;
 }
@@ -229,7 +328,4 @@ footer {
 #linkedin:hover {
   color: #0e76a8;
 }
-
-#instagram:hover {
-  color: #517fa4;
-}
+*/

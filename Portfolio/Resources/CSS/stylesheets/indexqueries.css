@@ -8,39 +8,22 @@
   .row {
     padding: 0 2%;
   }
-  .main-nav {
-    padding: 0 5%;
-  }
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(/Resources/CSS/IMAGES/Wildlife/buffalo-bw-1024-1200.jpg);
   }
 
-  .social-nav {
-    margin-right: 30px;
-  }
 }
 
 /* Ipad in portrait mode from 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
   body {
-    
     font-size: 18px;
-  }
-  .logo {
-    height: 60px;
-  }
-  .hero-text-box {
-    width: 100vw;
-    padding: 0 2%;
   }
 
   .row {
     padding: 0 2%;
-  }
-  .main-nav {
-    padding: 0 5%;
   }
 
   header {
@@ -48,20 +31,14 @@
       url(/Resources/CSS/IMAGES/Wildlife/buffalo2-bw-large.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
   }
 
-  .social-nav {
-    margin-right: 30px;
-  }
 
-  footer {
-      height: 10vh;
-  }
 }
 
-/* Small phones to small tablets from 481px to 767px */
+/* Small phones to small tablets from 481px to 767px 
 @media only screen and (max-width: 767px) {
   body {
     font-size: 16px;
@@ -77,7 +54,7 @@
   }
   .row,
   .hero-text-box {
-    padding: 0 4%;
+    padding: 0 2%;
   }
   .col {
     width: 100%;
@@ -94,38 +71,132 @@
   }
 
   .logo {
-    display: none;
+    margin-top: 10px;
+    height: 25px;
   }
 
-  .footer-icon {
-    width: 50px;
+  
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    display: none;
+    transition: height 0.3s;
   }
-  .social-nav {
-    margin-top: 10px;
-    float: none;
-    text-align: center;
+
+  nav .mainMenu {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  
   }
-  .social-nav li {
+
+  .menuClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .menuOpen a {
+    color: #fff;
+  }
+
+  nav .menuOpen {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+  }
+
+  nav .mainMenu li a:hover,
+  nav .mainMenu li a:active {
     display: inline-block;
+    
   }
+
 }
 
-/* Small phones from 0 to 480px */
+ Small phones from 0 to 480px 
 @media only screen and (max-width: 480px) {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(/Resources/CSS/IMAGES/Wildlife/buffalo2-bw-small.jpg);
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 100vh;
   }
 
+  .logo {
+    margin-top: 15px;
+    height: 20px;
+  }
+
+  .main-nav {
+    display: none;
+    margin-top: 0;
+    font-size: 90%;
+   }
+ 
+   .main-nav li {
+     display: block;
+     margin: 10px 0;
+   }
+ 
   .social-nav {
     margin-top: 15px;
     margin-right: 10px;
   }
 
-  .footer-icon {
-    width: 30px;
+  nav .mainMenu {
+    height: 100vh;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    display: none;
   }
+
+  nav .mainMenu {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  
+  }
+
+  .menuClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .menuOpen a {
+    color: #fff;
+  }
+
+  nav .menuOpen {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+  }
+
+  nav .mainMenu li a:hover,
+  nav .mainMenu li a:active {
+    display: inline-block;
+    
+  }
+
+
+
 }
+*/

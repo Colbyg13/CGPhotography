@@ -3,10 +3,13 @@ const navSlide = () => {
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
     const body = document.querySelector('body');
+
     //toggle Nav
     burger.addEventListener('click', () => {
         //toggle nav
         nav.classList.toggle('nav-active');
+        
+    
         //animate links
         navLinks.forEach((link, index)=>{
             if(link.style.animation){
@@ -30,18 +33,3 @@ const navSlide = () => {
 }
 
 navSlide();
-/*
-const aboutMe = document.querySelector("#portrait");
-var image = document.createElement("img");
-var imageParent = aboutMe;
-image.id = "testImage";
-image.className = "image";
-image.src = ""
-image.classList.add("")
-imageParent.appendChild(image);
-
-console.log(aboutMe);
-//how to add image programatically
-
-*/
-

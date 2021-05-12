@@ -4,31 +4,57 @@ body {
 }
 
 header {
+  height: auto;
   background-image: none;
-  height: 10vh;
 }
 
-.main-nav li {
-  display: inline-block;
-  margin-left: 35px;
-}
-
-.main-nav li a:link,
-.main-nav li a:visited {
-  padding: 6px 0;
+.navlogo {
   color: black;
-  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around; 
+  width: 35%;
+}
+
+.nav-links a:link,
+.nav-links a:visited {
+  color: black;
   font-size: 90%;
-  border-bottom: 2px solid transparent;
+  text-decoration: none;
   transition: color 0.4s;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
-  /*
-      border-bottom: 2px solid #1e90ff;
-  */
-  color: #70a1ff;
+.nav-links a:hover,
+.nav-links a:active {
+  color:#70a1ff;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+nav {
+  width: 100%;
 }
 
 /* --------------------------------- */
@@ -36,9 +62,9 @@ header {
 /* --------------------------------- */
 
 .about-me {
-  min-height: 80vh;
+  margin-top: 30px;
+  display: block;
   word-spacing: 1px;
-  margin-top: 50px;
   margin-bottom: 0;
 }
 .about-me h2 {
@@ -53,12 +79,16 @@ header {
   font-size: 80%;
   font-weight: 400;
   line-height: 155%;
-  margin-bottom: 10px;
-  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 100px;
 }
 
 .about-me img {
+  padding-left: 40px;
   height: 60vh;
+  margin-left: 100px;
   width: auto;
 }
 
@@ -74,9 +104,20 @@ header {
   color: #70a1ff;
 }
 
-footer {
-  background-color: rgb(36, 36, 36);
-  padding: 20px;
-  font-size: 80%;
-  margin: auto;
+
+.footer-icon {
+  font-size: 120%;
+  color: black;
+    /* to align icons */
+  vertical-align: bottom;
+}
+
+
+#instagram {
+  transition: color 0.2s;
+}
+
+
+#instagram:hover {
+  color: #70a1ff;
 }

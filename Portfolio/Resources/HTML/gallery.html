@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="/Vendor/css/normalize.css" />
     <link rel="stylesheet" href="/Vendor/css/grid.css" />
-    <link rel="stylesheet" href="/Resources/CSS/stylesheets/style.css" />
+    <link rel="stylesheet" href="/Resources/CSS/stylesheets/style.css"/>
     <link rel="stylesheet" href="/Resources/CSS/stylesheets/gallery.css" />
     <link rel="stylesheet" href="/Resources/CSS/stylesheets/galleryqueries.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -25,33 +25,37 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0" />
     <title>CG Gallery</title>
   </head>
 
   <body>
     <header>
       <nav>
-        <div class="row">
-          <img
-            src="/Vendor/css/IMAGES/camera-icon.png"
-            alt="CG Photo Logo"
-            class="logo"
-          />
-          <ul class="main-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="/Resources/HTML/aboutme.html">About me</a></li>
-            <li><a href="#">My gear</a></li>
-            <li><a href="/Resources/HTML/gallery.html">Gallery</a></li>
-            <li><a href="/Resources/HTML/contact.html">Contact me</a></li>
-          </ul>
+        <div class="navlogo">
+          <img src="/Resources/CSS/CGlogo.svg" alt="CG Photo Logo" class="logo" id="Logo">
         </div>
-      </nav>
+        <ul class="nav-links">
+          <li><a href="/Resources/HTML/index.html">Home</a></li>
+          <li><a href="/Resources/HTML/aboutme.html">About</a></li>
+          <li><a href="/Resources/HTML/gallery.html">Gallery</a></li>
+          <li><a href="/Resources/HTML/contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+     </nav>
     </header>
 
     <section class="introduction">
-      <div class="row"></div>
+      <div class="row">
+        <h2>&nbsp;</h2>
+      </div>
     </section>
+
+    
     <section class="section-landscape" id="Landscape">
       <div class="row">
         <h2 class="col span-2-of-2 landscape-heading">Landscapes</h2>
@@ -60,10 +64,9 @@
       <ul class="landscape-showcase gallery clearfix">
         <li>
           <figure class="landscape-photo">
-            <a href="/Resources/CSS/IMAGES/Landscape/Large/provo-waterfall1.jpg"
-              ><img
+           <img
                 src="/Resources/CSS/IMAGES/Landscape/Small/provo-waterfall1-small.jpg"
-                alt=""
+                alt="Bridal Veil Falls in Provo Utah"
             /></a>
           </figure>
         </li>
@@ -72,7 +75,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/provoclimbers-small.jpg"
-              alt=""
+              alt="Ice climbers near Bridal Veil Falls in Provo Utah"
             />
           </figure>
         </li>
@@ -81,7 +84,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/provowaterfall3-small.jpg"
-              alt=""
+              alt="Bridal Veil Falls in Provo Utah"
             />
           </figure>
         </li>
@@ -90,7 +93,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/riverbottoms-small.jpg"
-              alt=""
+              alt="Nebo Mountain Range in Spanish Fork Utah"
             />
           </figure>
         </li>
@@ -102,7 +105,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/idaho-river-small.jpg"
-              alt=""
+              alt="Small river falls in Twin Falls Idaho"
             />
           </figure>
         </li>
@@ -111,7 +114,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/idaho-water-fall1-small.jpg"
-              alt=""
+              alt="Small river falls in Twin Falls Idaho"
             />
           </figure>
         </li>
@@ -120,7 +123,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/idaho-water-fall2-small.jpg"
-              alt=""
+              alt="Idaho River"
             />
           </figure>
         </li>
@@ -139,10 +142,9 @@
       <ul class="landscape-showcase gallery clearfix">
         <li>
           <figure class="landscape-photo">
-            <a href="/Resources/CSS/IMAGES/Landscape/Large/payson-mountains.jpg" 
-              ><img
+            <img
                 src="/Resources/CSS/IMAGES/Landscape/Small/payson-mountains-small.jpg"
-                alt=""
+                alt="Payson mountains near Payson Lake"
             /></a>
           </figure>
         </li>
@@ -151,7 +153,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/snowy-dark-mountain-small.jpg"
-              alt=""
+              alt="Nebo Mountain Range Spanish Fork Moody"
             />
           </figure>
         </li>
@@ -160,7 +162,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/springville-fall-small.jpg"
-              alt=""
+              alt="Hobble Creek Canyon"
             />
           </figure>
         </li>
@@ -169,7 +171,7 @@
           <figure class="landscape-photo">
             <img
               src="/Resources/CSS/IMAGES/Landscape/Small/idaho-water-pool-small.jpg"
-              alt=""
+              alt="Water pool in Twin Falls Idaho"
             />
           </figure>
         </li>
@@ -187,7 +189,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/bean-03-color-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 1"
             />
           </figure>
         </li>
@@ -196,7 +198,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/nephi-01-color-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 2"
             />
           </figure>
         </li>
@@ -205,7 +207,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/amm-01-color-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 3"
             />
           </figure>
         </li>
@@ -214,7 +216,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/emi-03-color-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 4"
             />
           </figure>
         </li>
@@ -226,7 +228,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/bean-02-color-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 5"
             />
           </figure>
         </li>
@@ -235,7 +237,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/nephi-02-color.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 6"
             />
           </figure>
         </li>
@@ -244,7 +246,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/amm-02-color-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 7"
             />
           </figure>
         </li>
@@ -253,7 +255,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/emi-02-color-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 8"
             />
           </figure>
         </li>
@@ -265,7 +267,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/bean-01-bw-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 9"
             />
           </figure>
         </li>
@@ -274,7 +276,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/nephi-03-bw-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 10"
             />
           </figure>
         </li>
@@ -283,7 +285,7 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/amm-03-bw-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 11"
             />
           </figure>
         </li>
@@ -292,25 +294,13 @@
           <figure class="portrait-photo">
             <img
               src="/Resources/CSS/IMAGES/Portraits/small/emi-01-bw-small.jpg"
-              alt="Nephi portrait in the snow"
+              alt="Portrait 12"
             />
           </figure>
         </li>
       </ul>
     </section>
 
-    <footer>
-      <div class="row">
-        <div class="col span-2-of-2">
-          <ul class="social-nav">
-            <li><a href="https://www.facebook.com/COLBYG13/" target="_blank"><ion-icon name="logo-facebook" class="footer-icon" id="facebook"></ion-icon></a></li>
-            <li><a href="https://twitter.com/ColbyGardiner" target="_blank"><ion-icon name="logo-twitter" class="footer-icon" id="twitter"></ion-icon></a></li>
-            <li><a href="https://www.linkedin.com/in/colbygardiner13" target="_blank"><ion-icon name="logo-linkedin" class="footer-icon" id="linkedin"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-instagram" class="footer-icon" id="instagram"></ion-icon></a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
 
     <!-- This script is for using ionicons. Below is the basic usage
 
@@ -318,6 +308,6 @@
 
     -->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script src="/Resources/JS/index.js"></script>
+    <script src="/Resources/JS/galleryscript.js"></script>
   </body>
 </html>
