@@ -58,7 +58,7 @@ h1 {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/Resources/CSS/IMAGES/Wildlife/buffalo-bw.jpg);
+    url(/Portfolio/Resources/CSS/IMAGES/Wildlife/buffalo-bw.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
