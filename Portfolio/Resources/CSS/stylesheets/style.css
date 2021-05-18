@@ -75,7 +75,7 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 8vh;
 
@@ -85,11 +85,12 @@ nav {
   color: rgb(235, 233, 233);
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin-left: 10px;
 }
 
 .nav-links {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-between; 
   width: 35%;
 }
 
@@ -111,6 +112,10 @@ nav {
   padding: 5px;
   text-transform: uppercase;
   margin-left: 10px;
+}
+
+.nav-links li:last-child {
+  margin-right: 10px;
 }
 
 .burger {
@@ -329,3 +334,51 @@ footer {
   color: #0e76a8;
 }
 */
+
+
+/* --------------------------------- */
+/* Section: About me */
+/* --------------------------------- */
+
+.about-me {
+  margin-top: 100px;
+  display: block;
+  word-spacing: 1px;
+  margin-bottom: 0;
+}
+.about-me h2 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-bottom: px 0;
+  text-align: left;
+  font-weight: 200;
+}
+
+.about-me p {
+  font-size: 80%;
+  font-weight: 400;
+  line-height: 155%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.about-me img {
+  padding-left: 40px;
+  height: 65vh;
+  margin-left: 100px;
+  width: auto;
+}
+
+.about-me ion-icon {
+  font-size: 200%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#contact-link {
+  text-decoration: none;
+  color: #70a1ff;
+}

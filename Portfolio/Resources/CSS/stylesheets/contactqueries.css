@@ -1,13 +1,157 @@
 @media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+  .logo {
+    height: 25px;
+  }
 
+  h2 {
+    font-size: 120%;
+  }
+  .nav-links {
+    width: 50%;
+  }
+  .card {
+    width: 40vw;
+  }
   }
   
 
 /* Ipad in portrait mode from 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
-   
+  body {
+    font-size: 18px;
   }
 
+  .row {
+    margin-top: 20px;
+    padding: 0 2%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 1% 0;
+  }
+
+  .nav-links {
+    width: 50%;
+  }
+  .nav-links a {
+    font-size: 80%;
+  }
+  .logo {
+    height: 25px;
+  }
+
+  .card {
+    
+    width: 40vw;
+    overflow-y: hidden;
+  }
+  }
+
+/* Small phones to small tablets from 481px to 767px */
 @media only screen and (max-width: 767px) {
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 80vh;
+    top: 8vh;
+    background-color: rgba(22, 22, 22, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    opacity: 0;
  
+}
+
+.nav-links a:link,
+.nav-links a:visited {
+  font-size: 90%;
+  color: #fff;
+  font-size: 90%;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+
+.burger{
+    display: block;
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+.card {
+width: 40vw;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 60vw;
+  }
+
+  .burger div {
+    background-color: #fff;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .card {
+        width: 60vw;
+        height: 50vh;
+        font-size: 80%;
+    }
+
+    .form {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: start;
+    }
+
+    .contact-icon {
+     display: none;
+    }
+
+    .space {
+      display: none;
+    }
 }

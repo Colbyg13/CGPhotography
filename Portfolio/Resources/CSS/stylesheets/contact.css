@@ -1,0 +1,139 @@
+header {
+    background-image: none;
+    height: 10vh;
+  }
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/Resources/CSS/IMAGES/Plants/green-plants.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .navlogo {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+  }
+  
+  .nav-links a:link,
+  .nav-links a:visited {
+    color: white;
+    font-size: 90%;
+    text-decoration: none;
+    transition: color 0.4s;
+  }
+  
+  .nav-links a:hover,
+  .nav-links a:active {
+    color:#70a1ff;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+
+  nav {
+    position: relative;
+    z-index: 10;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.25);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 30vw;
+    font-size: 85%;
+  }
+
+  .card h3 {
+    
+      text-align: center;
+      border-bottom: 2px solid 
+      white;
+      margin-top: 15px;
+      padding-bottom: 5px;
+      font-size: 95%;
+  }
+
+  .container {
+  padding: 2px 2px;
+  margin-bottom: 10px;
+}
+
+ion-icon {
+    font-size: 40px;
+   
+}
+
+.icons {
+    text-align: center;
+}
+
+.form {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+.form p {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.form p a {
+    text-decoration: none;
+}
+
+.contact-icon {
+    margin: 5px;
+    font-size: 50px;
+    color: white;
+}
+
+.contact-container {
+    height: 150vh;
+  
+}
+
+.bold {
+    font-weight: bold;
+}

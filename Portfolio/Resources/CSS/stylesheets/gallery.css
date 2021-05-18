@@ -17,11 +17,12 @@ header {
     color: black;
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin-left: 10px;
   }
   
   .nav-links {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between;
     width: 35%;
   }
   
@@ -81,8 +82,8 @@ header {
 
 .landscape-heading {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 .landscape-showcase {
@@ -92,7 +93,7 @@ header {
 }
 
 .landscape-showcase li {
-    width: 25%;
+    width: 50%;
     display: block;
     float: left;
 }
@@ -133,8 +134,9 @@ header {
 
 .portrait-heading {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
+ 
   
 }
 .portrait-showcase {
@@ -152,7 +154,7 @@ header {
 }
 
 .portrait-showcase li {
-    width: 25%;
+    width: 50%;
     display: block;
     float: left;
     background-color: #f4f4f4;

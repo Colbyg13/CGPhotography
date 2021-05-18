@@ -38,6 +38,10 @@
     height: 25px;
   }
 
+  .nav-links {
+    width: 50%;
+  }
+
 
 }
 
@@ -118,7 +122,7 @@ html {
 .nav-links {
     position: absolute;
     right: 0px;
-    height: 100vh;
+    height: 80vh;
     top: 8vh;
     background-color: rgba(22, 22, 22, 0.85);
     display: flex;
@@ -127,6 +131,7 @@ html {
     width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
+    justify-content: space-around;
 }
 
 .nav-links li {
@@ -145,6 +150,7 @@ html {
 
 .burger{
     display: block;
+    margin-right: 10px;
   
 }
 
