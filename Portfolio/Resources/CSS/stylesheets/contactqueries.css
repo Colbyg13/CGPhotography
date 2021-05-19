@@ -22,6 +22,7 @@
 @media only screen and (max-width: 1023px) {
   body {
     font-size: 18px;
+    overflow-y: auto;
   }
 
   .row {
@@ -46,7 +47,7 @@
   .card {
     margin-top: 50px;
     width: 50vw;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
   }
 
