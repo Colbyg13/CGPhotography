@@ -183,3 +183,59 @@ header {
   transform: scale(1.02);
   opacity: 1.00;
 }
+
+.section-wildlife {
+  margin-top: 50px;
+}
+
+.wildlife-heading {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+ 
+  
+}
+.wildlife-showcase {
+    list-style: none;
+    width: 100%;
+    
+    
+}
+
+.section-wildlife li::after {
+  display: block;
+  height: 2px;
+  content: " ";
+
+}
+
+.wildlife-showcase li {
+    width: 50%;
+    display: block;
+    float: left;
+    background-color: white;
+}
+
+.wildlife-photo {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.wildlife-photo img {
+  opacity: 0.70;
+    width: 100%;
+    height: auto;
+    transform: scale(0.98);
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+.wildlife-photo img:hover {
+  transform: scale(1.02);
+  opacity: 1.00;
+}

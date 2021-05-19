@@ -5,17 +5,20 @@
   }
 
   .landscape-showcase li,
-  .portrait-showcase li {
+  .portrait-showcase li,
+  .wildlife-showcase li {
     width: 50%;
   }
 
   .section-portrait,
-  .section-landscape {
+  .section-landscape,
+  .section-wildlife {
     margin: 5px 0;
   }
 
   .portrait-heading,
-  .landscape-heading {
+  .landscape-heading,
+  .wildlife-heading {
     margin: 20px 0;
   }
 
@@ -73,12 +76,14 @@
 
 
   .landscape-showcase li,
-  .portrait-showcase li {
+  .portrait-showcase li,
+  .wildlife-showcase li {
     width: 50%;
   }
 
   .portrait-heading,
-  .landscape-heading {
+  .landscape-heading,
+  .wildlife-heading {
     font-size: 100%;
   }
 
@@ -150,12 +155,14 @@
 /* Small phones from 0 to 480px */
 @media only screen and (max-width: 480px) {
   .landscape-showcase li,
-  .portrait-showcase li {
+  .portrait-showcase li,
+  .wildlife-showcase li {
     width: 100%;
   }
 
   .portrait-heading,
-  .landscape-heading {
+  .landscape-heading,
+  .wildlife-heading {
     margin: 20px 0;
     font-size: 85%;
   }
