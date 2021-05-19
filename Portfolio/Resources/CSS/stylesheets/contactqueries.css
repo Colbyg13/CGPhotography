@@ -46,7 +46,7 @@
   .card {
     margin-top: 50px;
     width: 50vw;
-    overflow-y: hidden;
+    overflow-y: auto;
   }
   }
 
