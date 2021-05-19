@@ -130,6 +130,8 @@ width: 60vw;
     width: 60vw;
   }
 
+  body { overflow-y: auto;}
+
   .burger div {
     background-color: #fff;
   }
