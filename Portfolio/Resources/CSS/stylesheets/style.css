@@ -57,7 +57,7 @@ h1 {
 /* --------------------------------- */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../IMAGES/Wildlife/buffalo-bw.jpg);
   background-size: cover;
   background-position: center;
@@ -378,7 +378,7 @@ footer {
   margin-bottom: 20px;
 }
 
-#contact-link {
+.page-link {
   text-decoration: none;
   color: #70a1ff;
 }
