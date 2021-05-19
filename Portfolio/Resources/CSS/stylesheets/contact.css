@@ -9,7 +9,7 @@ header {
     overflow-y: hidden;
     overflow-x: hidden;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/Resources/CSS/IMAGES/Plants/green-plants.jpg);
+    url(/Portfolio/Resources/CSS/IMAGES/Plants/green-plants.jpg);
     background-size: cover;
     background-position: center;
   }

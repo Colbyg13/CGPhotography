@@ -85,7 +85,11 @@
 .burger{
     display: block;
     margin-right: 10px;
-    color: white;
+    
+}
+
+.burger div {
+  background-color: white;
 }
 
 .nav-active {
@@ -153,5 +157,9 @@ width: 40vw;
 
     .space {
       display: none;
+    }
+
+    .burger div {
+      background-color: #fff;
     }
 }
