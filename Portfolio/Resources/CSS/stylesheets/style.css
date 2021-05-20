@@ -90,7 +90,7 @@ nav {
 
 .nav-links {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-evenly;
   width: 35%;
 }
 
@@ -130,83 +130,6 @@ nav {
   margin: 5px;
   transition: all 0.3s ease;
 }
-
-/*
-nav li a:link,
-nav li a:visited {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.4s;
-}
-
-
-nav li a:hover,
-nav li a:active {
-  /*
-    border-bottom: 2px solid #1e90ff;
-
-  color: #70a1ff;
-}
-*/
-
-
-
-
-/* Main Nav */
-
-/*
-.main-nav {
-  margin-top: 40px;
-  float: right;
-}
-
-.main-nav li {
-  display: inline-block;
-  padding: 10px;
-  text-transform: uppercase;
-  margin-left: 10px;
-}
-
-.main-nav li a:link,
-.main-nav li a:visited,
-.mainMenu li a:link,
-.mainMenu li a:visited {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.4s;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active,
-.mainMenu li a:hover,
-.mainMenu li a:active {
-  /*
-    border-bottom: 2px solid #1e90ff;
-
-  color: #70a1ff;
-}
-
-*/
-
-
-
-/* Sticky Nav 
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.904);
-}
-
-.sticky .main-nav li a:link,
-.main-nav li a:visited {
-  padding: 6px 0;
-  color: #555;
-
-}
-*/
-
 
 /* --------------------------------- */
 /* BUTTONS */
