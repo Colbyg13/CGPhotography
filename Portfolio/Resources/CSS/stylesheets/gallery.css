@@ -89,6 +89,7 @@ header {
 .landscape-showcase {
     list-style: none;
     width: 100%;
+    background-color: #f4f4f4;;
     
 }
 
@@ -157,7 +158,7 @@ header {
     width: 50%;
     display: block;
     float: left;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .portrait-photo {
@@ -213,7 +214,7 @@ header {
     width: 50%;
     display: block;
     float: left;
-    background-color: white;
+    background-color: #f4f4f4;
 }
 
 .wildlife-photo {
